@@ -1,0 +1,46 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.wordWrap": "on",
+    "editor.fontSize": 15,
+    "window.zoomLevel": 0,
+    "editor.renderIndentGuides": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    // The number of spaces a tab is equal to. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.tabSize": 2,
+    "editor.detectIndentation": true,
+    // Insert spaces when pressing Tab. This setting is overriden
+    // based on the file contents when `editor.detectIndentation` is true.
+    "editor.insertSpaces": true,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces`
+    // will be detected based on the file contents. Set to false to keep
+    // the values you've explicitly set, above.
+    "editor.detectIndentation": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Material Monokai High Contrast",
+    "breadcrumbs.enabled": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "editor.renderWhitespace": "boundary",
+    "gitProjectManager.baseProjectsFolders": [
+        "/Users/ethiapath/Source",
+        "/Users/ethiapath/Projects",
+        "/Users/ethiapath/Desktop",
+        "/Volumes/Games/code"
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "gitProjectManager.codePath": {
+        "macos": "/Applications/Visual Studio Code.app "
+    },
+    "gitProjectManager.codePath": [
+        "/Applications/Visual Studio Code.app "
+    ],
+    "gitProjectManager.ignoredFolders": ["node_modules"],
+    "gitProjectManager.maxDepthRecursion": 1
+    
+}
