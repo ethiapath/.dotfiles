@@ -27,9 +27,12 @@ set nojoinspaces          " Use only one space after period when joining lines
 
 " Tabs and spaces --------------------------------------------------------------
 
+set autoindent            " Does something good i'm sure...
+set noexpandtab           " 
 set shiftwidth=2          " Spaces to use for each indent step (>>, <<, etc.)
 set shiftround            " Round indent to multiple of shiftwidth
 set softtabstop=2         " Spaces to use for <tab> and <BS> editing operations
+set tabstop=2
 set expandtab             " Use appropriate # of spaces for <tab> in insert mode
 
 

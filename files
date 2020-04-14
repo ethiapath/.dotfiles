@@ -1,0 +1,12 @@
+.zim
+bash_profile
+.bashrc
+tmux.conf
+.vimrc
+.vim
+.zshrc
+.zimrc
+.zshenv
+.zprofile
+.zlogin
+.npmrc
