@@ -2,6 +2,11 @@
 
 # [from here https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html](https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html)
 
+---
+### important
+
+run `zsh ~/.zim/zimfw.zsh install` after cloning to setup zim framework.
+
 
 ## First Time Setup
 Setting this method up the first time is really easy. First, let’s create our bare repository. I chose to name my placeholder .dotfiles (duh!)
