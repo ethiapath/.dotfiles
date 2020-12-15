@@ -47,3 +47,10 @@ git clone --separate-git-dir=$HOME/.dotfiles https://github.com/anandpiyer/.dotf
 rsync --recursive --verbose --exclude '.git' tmpdotfiles/ $HOME/
 rm -r tmpdotfiles
 ```
+
+
+### Postclone. Run installer scripts
+
+run `zsh ~/.zim/zimfw.zsh install` after cloning to setup zim framework.
+
+
