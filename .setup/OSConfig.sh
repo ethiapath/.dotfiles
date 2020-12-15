@@ -2,7 +2,7 @@
 defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
 
 # smooth scrolling
-defaults write -g NSScrollAnimationEnabled -bool false
+defaults write -g NSScrollAnimationEnabled -bool true
 
 # showing and hiding sheets, resizing preference windows, zooming windows
 # float 0 doesn't work
@@ -12,7 +12,7 @@ defaults write -g NSWindowResizeTime -float 0.001
 defaults write -g QLPanelAnimationDuration -float 0
 
 # rubberband scrolling (doesn't affect web views)
-defaults write -g NSScrollViewRubberbanding -bool false
+defaults write -g NSScrollViewRubberbanding -bool true
 
 # resizing windows before and after showing the version browser
 # also disabled by NSWindowResizeTime -float 0.001
@@ -65,7 +65,6 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 #Show the ~/Library and /Voluemes folder
 chflags nohidden ~/Library
 sudo chflags nohidden /Volumes
-
 
 #Avoid Creating .DS_Store Files On Network Or USB Volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
