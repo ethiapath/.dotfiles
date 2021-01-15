@@ -217,3 +217,10 @@ source ~/.bash_profile
 export PATH="/usr/local/sbin:$PATH"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/hargo/.sdkman"
+[[ -s "/Users/hargo/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/hargo/.sdkman/bin/sdkman-init.sh"
+
+# Created by `userpath` on 2020-11-30 03:34:54
+export PATH="$PATH:/Users/hargo/.local/bin"

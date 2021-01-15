@@ -128,3 +128,7 @@ export PATH="~/.cargo/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/hargo/.sdkman"
+[[ -s "/Users/hargo/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/hargo/.sdkman/bin/sdkman-init.sh"

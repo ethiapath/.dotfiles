@@ -1,6 +1,9 @@
 # opening and closing windows and popovers
 defaults write -g NSAutomaticWindowAnimationsEnabled -bool false
 
+# disable dock autohide animation (instant dock)
+defaults write com.apple.dock autohide-time-modifier -int 0
+
 # smooth scrolling
 defaults write -g NSScrollAnimationEnabled -bool true
 
@@ -34,6 +37,9 @@ defaults write com.apple.dock expose-animation-duration -float 0
 # showing and hiding Launchpad
 defaults write com.apple.dock springboard-show-duration -float 0
 defaults write com.apple.dock springboard-hide-duration -float 0
+
+# instant dialog boxes
+defaults write NSGlobalDomain NSWindowResizeTime .001
 
 # changing pages in Launchpad
 defaults write com.apple.dock springboard-page-duration -float 0
